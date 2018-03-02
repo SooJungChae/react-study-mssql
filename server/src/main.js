@@ -2,6 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 // LOAD API FROM ROUTES
 import api from '../routes';
+import sql from 'mssql';
 
 const app = express();
 
