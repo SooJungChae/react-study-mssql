@@ -42,9 +42,10 @@ class App extends Component {
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
           <JqxDropDownList width={200} height={50} source={source} />
           <button type="button" onClick={this.handleEmpGet}>조회</button>
-        </p>
+
       </div>
     );
   }
