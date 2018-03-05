@@ -12,9 +12,10 @@ class App extends Component {
   }
 
   handleEmpGet() {
+    //empGetRequest()
     empGetRequest().then( (response) => {
       // 가져온 데이터를 source 에 넣는다.
-      console.log('get from request!');
+      console.log('get from request:');
       console.log(response);
       // this.setState({
       //   result: response
