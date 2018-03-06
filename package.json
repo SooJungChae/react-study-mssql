@@ -15,7 +15,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:server": "node server/src/main.js",
     "build": "react-scripts build",
+    "build:server": "set cross-env NODE_PATH=src node scripts/build.server.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },

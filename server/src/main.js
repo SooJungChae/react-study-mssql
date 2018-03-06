@@ -7,8 +7,7 @@ import sql from 'mssql';
 const app = express();
 
 let port = 8080;
-
-
+let testPort = 3000;
 
 app.use('/api', api);
 
@@ -22,5 +21,5 @@ app.use('/', express.static(__dirname + '/../../build'));
 // TO BE IMPLEMENTED
 
 app.listen(port, () => {
-    console.log('Express is listening on port', port);
+    console.log('Express is listening on port', testPort);
 });
